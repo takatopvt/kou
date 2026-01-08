@@ -22,7 +22,9 @@ body {
 }
 
 main{
-  max-width: 640px;
+  max-width: 60ch;
+  margin: 0 auto;
+  padding: 0 16px 64px;
 }
 
 .logo {
