@@ -112,3 +112,11 @@ a:hover {
 
 /* Footer */
 small { font-size: 12px; }
+
+.site-footer{
+  margin-top: 56px;
+  padding: 24px 16px 40px;
+  text-align: center;
+  color: #666;
+  font-size: 0.85rem;
+}
