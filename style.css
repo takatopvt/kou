@@ -1,0 +1,37 @@
+/* Berkshire-like: minimal, conservative */
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 16px;
+  max-width: 920px;
+  line-height: 1.35;
+  font-family: serif;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center; /* title only */
+  margin: 8px 0 12px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 18px 0 8px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p { margin: 8px 0; }
+
+ul { margin: 8px 0 8px 20px; padding: 0; }
+li { margin: 4px 0; }
+
+hr { margin: 14px 0; }
+
+/* Keep link look close to default */
+a { text-decoration: underline; }
+a:visited { }
+a:hover { }
+
+/* Small footer */
+small { font-size: 12px; }
