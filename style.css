@@ -7,9 +7,21 @@ body {
   background-color: #c8c8c8; 
   color: #000;          
   line-height: 1.35;
-  font-family: serif;
+  font-family: var(--jp);
   font-size: 16px;
 }
+
+:root{
+  --jp: "Source Han Serif JP", "游明朝", "Yu Mincho", serif;
+  --en: "Libre Baskerville", serif;
+}
+
+.logo-en{
+  font-family: var(--en);
+  letter-spacing: 0.05em;
+  font-size: 0.9em;
+}
+
 
 /* Headings */
 h1 {
