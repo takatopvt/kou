@@ -5,6 +5,7 @@ body {
   margin: 16px;
   max-width: 920px;
   background-color: #c8c8c8; 
+  letter-spacing: 0.01em;
   color: #000;          
   line-height: 1.35;
   font-family: "Source Han Serif JP", serif;
