@@ -26,9 +26,15 @@ body {
 hr {
   border: none;
   height: 1px;
-  background: #ccc;
-  margin: 40px 0;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #bbb,
+    transparent
+  );
+  margin: 48px 0;
 }
+
 
 :root{
   --jp: "Source Han Serif JP", "游明朝", "Yu Mincho", serif;
