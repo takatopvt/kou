@@ -1,86 +1,70 @@
-/* Base */
-html { -webkit-text-size-adjust: 100%; }
-
-body {
-  margin: 16px;
-  max-width: 920px;
-  background-color: #c8c8c8; 
-  color: #000;          
-  line-height: 1.35;
-  font-family: "Source Han Serif JP", serif;
-  font-size: 16px;
-}
-
-.logo {
-  font-size: 3rem;  
-  text-align: center;  
-  margin: 40px 0 32px;
-}
-
-.address {
-  font-size: 1rem;   
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-hr {
-  border: none;
-  height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    #bbb,
-    transparent
-  );
-  margin: 48px 0;
-}
-
-
 :root{
-  --jp: "Source Han Serif JP", "游明朝", "Yu Mincho", serif;
-  --en: "Libre Baskerville", serif;
+  --bg:#f2f2f2;
+  --fg:#111;
+  --muted:#666;
+  --line:#d0d0d0;
+  --link:#3a4f7a;
 }
 
-.logo-en{
-  font-family: "Libre Baskerville", serif;
-  letter-spacing: 0.05em;
-  font-size: 0.9em;
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  line-height:1.8;
+  font-family:"Source Han Serif JP","游明朝","Yu Mincho",serif;
 }
 
-
-/* Headings */
-h1 {
-  text-align: center;
-  margin: 8px 0 12px 0;
-  font-size: 28px;
-  font-weight: bold;
+.site-header{
+  text-align:center;
+  padding:44px 16px 28px;
+  border-bottom:1px solid var(--line);
+  margin-bottom:36px;
 }
 
-h2 {
-  margin: 18px 0 8px 0;
-  font-size: 18px;
-  font-weight: bold;
+.logo{
+  font-size:3rem;
+  margin:0 0 10px;
 }
 
-/* Text */
-p { margin: 8px 0; }
-ul { margin: 8px 0 8px 20px; padding: 0; }
-li { margin: 4px 0; }
-hr { margin: 14px 0; }
-
-/* Links: blue–purple */
-a {
-  color: #4b4bbd;           /* blue-purple */
-  text-decoration: underline;
+.address{
+  margin:0;
+  color:var(--muted);
+  font-size:.95rem;
 }
 
-a:visited {
-  color: #6a5acd;           /* slate blue (visited) */
+main{
+  max-width:720px;
+  margin:0 auto;
+  padding:0 16px 64px;
 }
 
-a:hover {
-  color: #2f2fa2;           /* slightly darker on hover */
+hr{
+  border:none;
+  height:1px;
+  background:linear-gradient(to right, transparent, var(--line), transparent);
+  margin:36px 0;
 }
 
-/* Footer */
-small { font-size: 12px; }
+ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+li{
+  padding:12px 0;
+  border-bottom:1px solid rgba(0,0,0,.06);
+}
+
+li:last-child{ border-bottom:none; }
+
+a{
+  color:var(--link);
+  text-decoration:none;
+}
+
+a:hover{ text-decoration:underline; }
+
+.small, small{
+  color:var(--muted);
+}
