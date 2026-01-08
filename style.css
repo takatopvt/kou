@@ -7,7 +7,7 @@ body {
   background-color: #c8c8c8; 
   color: #000;          
   line-height: 1.35;
-  font-family: var(--jp);
+  font-family: "Source Han Serif JP", serif;
   font-size: 16px;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .logo-en{
-  font-family: var(--en);
+  font-family: "Libre Baskerville", serif;
   letter-spacing: 0.05em;
   font-size: 0.9em;
 }
