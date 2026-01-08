@@ -1,15 +1,19 @@
-/* Berkshire-like: minimal, conservative */
+/* Base */
 html { -webkit-text-size-adjust: 100%; }
+
 body {
   margin: 16px;
   max-width: 920px;
+  background-color: #e6e6e6; /* light gray background */
+  color: #000;              /* black text */
   line-height: 1.35;
   font-family: serif;
   font-size: 16px;
 }
 
+/* Headings */
 h1 {
-  text-align: center; /* title only */
+  text-align: center;
   margin: 8px 0 12px 0;
   font-size: 28px;
   font-weight: bold;
@@ -21,30 +25,25 @@ h2 {
   font-weight: bold;
 }
 
+/* Text */
 p { margin: 8px 0; }
-
 ul { margin: 8px 0 8px 20px; padding: 0; }
 li { margin: 4px 0; }
-
 hr { margin: 14px 0; }
 
-/* Keep link look close to default */
-a { text-decoration: underline; }
-a:visited { }
-a:hover { }
-
-/* Small footer */
-small { font-size: 12px; }
-
-/* Link color: conservative gray */
+/* Links: blue–purple */
 a {
-  color: #555;
+  color: #4b4bbd;           /* blue-purple */
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #666;
+  color: #6a5acd;           /* slate blue (visited) */
 }
 
 a:hover {
-  color: #333;
+  color: #2f2fa2;           /* slightly darker on hover */
 }
+
+/* Footer */
+small { font-size: 12px; }
