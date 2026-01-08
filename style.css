@@ -20,6 +20,10 @@ body {
   to { opacity: 1; }
 }
 
+main {
+  max-width: 60ch;
+}
+
 .logo {
   font-size: 3rem;  
   text-align: center;  
