@@ -35,6 +35,15 @@ hr {
   margin: 48px 0;
 }
 
+li:last-child{ border-bottom:none; }
+
+a{
+  color:var(--link);
+  text-decoration:none;
+}
+
+a:hover{ text-decoration:underline; }
+
 
 :root{
   --jp: "Source Han Serif JP", "游明朝", "Yu Mincho", serif;
