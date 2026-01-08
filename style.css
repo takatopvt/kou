@@ -3,7 +3,6 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 16px;
-  max-width: 920px;
   background-color: #c8c8c8; 
   letter-spacing: 0.01em;
   color: #000;          
