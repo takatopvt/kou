@@ -49,6 +49,10 @@ hr {
 }
 
 li:last-child{ border-bottom:none; }
+li + li{
+  margin-top: 16px;
+}
+
 
 a{
   color:var(--link);
