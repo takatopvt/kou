@@ -23,6 +23,13 @@ body {
   margin-bottom: 32px;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background: #ccc;
+  margin: 40px 0;
+}
+
 :root{
   --jp: "Source Han Serif JP", "游明朝", "Yu Mincho", serif;
   --en: "Libre Baskerville", serif;
