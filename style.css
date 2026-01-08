@@ -9,9 +9,6 @@ body {
   line-height: 1.35;
   font-family: "Source Han Serif JP", serif;
   font-size: 16px;
-}
-
-body {
   opacity: 0;
   animation: fadeIn 0.6s ease-out forwards;
 }
@@ -21,12 +18,12 @@ body {
 }
 
 main{
-  max-width: 60ch;     /* もしくは 640px */
-  margin: 0 auto;      /* ← これが本体を中央にする */
+  max-width: 60ch;
+  margin: 0 auto;
   padding: 0 16px 64px;
-  text-align: left;    /* 文章は左寄せのまま */
+  text-align: left;
+  box-sizing: border-box;
 }
-
 
 .logo {
   font-size: 3rem;  
@@ -49,7 +46,6 @@ hr {
     #bbb,
     transparent
   );
-  margin: 48px 0;
 }
 
 li{
@@ -95,7 +91,6 @@ h2 {
 
 /* Text */
 p { margin: 8px 0; }
-
 li { margin: 4px 0; }
 hr { margin: 14px 0; }
 
