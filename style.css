@@ -22,10 +22,12 @@ body {
 }
 
 main{
-  max-width: 60ch;
-  margin: 0 auto;
+  max-width: 60ch;     /* もしくは 640px */
+  margin: 0 auto;      /* ← これが本体を中央にする */
   padding: 0 16px 64px;
+  text-align: left;    /* 文章は左寄せのまま */
 }
+
 
 .logo {
   font-size: 3rem;  
