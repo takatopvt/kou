@@ -35,3 +35,16 @@ a:hover { }
 
 /* Small footer */
 small { font-size: 12px; }
+
+/* Link color: conservative gray */
+a {
+  color: #555;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: #333;
+}
