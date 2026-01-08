@@ -11,6 +11,12 @@ body {
   font-size: 16px;
 }
 
+.logo {
+  font-size: 3rem;          /* 少し大きく */
+  text-align: center;       /* 中央揃え */
+  margin: 40px 0 32px;
+}
+
 :root{
   --jp: "Source Han Serif JP", "游明朝", "Yu Mincho", serif;
   --en: "Libre Baskerville", serif;
